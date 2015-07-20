@@ -1,0 +1,25 @@
+{
+  "name": "appmetrics-statsd",
+  "version": "1.0.0",
+  "description": "StatsD connector for Node Application Metrics",
+  "main": "index.js",
+  "dependencies": {
+    "appmetrics": "*",
+    "node-statsd": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "appmetrics",
+    "statsd",
+    "performance",
+    "monitoring"
+  ],
+  "author": "Chris Bailey <baileyc@uk.ibm.com>",
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/RuntimeTools/appmetrics-statsd.git"
+  },
+  "license": "Apache-2.0"
+}
