@@ -1,10 +1,10 @@
 {
   "name": "appmetrics-statsd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "StatsD connector for Node Application Metrics",
   "main": "index.js",
   "dependencies": {
-    "appmetrics": "*",
+    "appmetrics": "^1.0.4",
     "node-statsd": "*"
   },
   "scripts": {
