@@ -134,9 +134,11 @@ The connector sends the following data values to StatsD from Node Application Me
 The Node Application Metrics to StatsD Connector is licensed using an Apache v2.0 License.
 
 ### Version
-2.0.0
+3.0.0
 
 #### Version History
+3.0.0 Update appmetrics version to 4.x.x
+
 2.0.0 Update appmetrics version to 3.x.x
 
 1.0.1 Add support for Event Loop, HTTP, Socketio, MongoDB, MySQL, Leveldown, Redis, Memcached, POstgreSQL, MQTT and MQLight  
