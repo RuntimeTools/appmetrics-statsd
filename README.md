@@ -141,6 +141,8 @@ The Node Application Metrics to StatsD Connector is licensed using an Apache v2.
 3.0.0
 
 #### Version History
+3.1.0 Use hot-shots rather thab node-statsd
+
 3.0.0 Remove fixed version of appmetrics in package.json
 
 2.0.0 Update appmetrics version to 3.x.x
