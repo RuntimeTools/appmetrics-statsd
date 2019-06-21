@@ -138,7 +138,7 @@ also includes additional functionality for users of Datadog and Telegraf. See th
 The Node Application Metrics to StatsD Connector is licensed using an Apache v2.0 License.
 
 ### Version
-3.0.0
+3.1.0
 
 #### Version History
 3.1.0 Use hot-shots rather thab node-statsd
