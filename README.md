@@ -1,6 +1,6 @@
 # StatsD Connector for Node Application Metrics
 
-A connector that collects data using 'appmetrics' and sends it to a configured StatsD server using 'node-statsd'.
+A connector that collects data using `appmetrics` and sends it to a configured StatsD server using [`hot-shots`](https://github.com/brightcove/hot-shots), a fork of `node-statsd`.
 
 ## Getting Started
 
@@ -31,6 +31,10 @@ statsd.gauge('gauge', 10.4);
 
 The connector sends the following data values to StatsD from Node Application Metrics:
 
+#### `hot-shots`
+The `hot-shots` package provides all of the base `statsd` functionality for the below, and
+also includes additional functionality for users of Datadog and Telegraf. See the 
+[`hot-shots`](https://github.com/brightcove/hot-shots) documentation for more details.
 
 #### CPU
 **Gauges**
