@@ -5,3 +5,4 @@ Authors ordered by first contribution:
  - Toby Corbin (https://github.com/tobespc)
  - Matt Colegate (https://github.com/mattcolegate)
  - Steve Kehlet (https://github.com/skehlet)
+ - Honza Javorek (https://github.com/honzajavorek)
