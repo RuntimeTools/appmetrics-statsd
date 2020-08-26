@@ -52,13 +52,13 @@ also includes additional functionality for users of Datadog and Telegraf. See th
 * `memory.system.used` the total amount of RAM in use on the system in bytes.
 * `memory.system.total` the total amount of RAM available on the system in bytes.
 
-####Event Loop
+#### Event Loop
 
 * `eventloop.latency.min` the shortest sampled latency for processing an event
 * `eventloop.latency.max` the longest sampled latency for processing an event
 * `eventloop.latency.avg` the mean sampled latency for processing an event
 
-####Garbage Collection
+#### Garbage Collection
 
 **Gauges**
 
@@ -69,13 +69,13 @@ also includes additional functionality for users of Datadog and Telegraf. See th
 
 * `gc.duration` the duration of the GC cycle in milliseconds.
 
-####HTTP Requests
+#### HTTP Requests
 
 **Timers**
 
 * `http` the time taken for the HTTP request to be responded to in ms.
 
-####Socket.io
+#### Socket.io
 
 **Timers**
 
@@ -83,19 +83,19 @@ also includes additional functionality for users of Datadog and Telegraf. See th
 * `socketio.emit.<event>` the time taken for the emit to a single client of the named socketio event.
 * `socketio.receive.<event>` the time taken for a received named socketio event to be handled.
 
-####MySQL Queries
+#### MySQL Queries
 
 **Timers**
 
 * `mysql` the time taken for the given MySQL query to be responded to in ms.
 
-####MongoDB Queries
+#### MongoDB Queries
 
 **Timers**
 
 * `mongo` the time taken for the given MongoDB query to be responded to in ms.
 
-####Leveldown Queries
+#### Leveldown Queries
 
 **Timers**
 
@@ -104,31 +104,31 @@ also includes additional functionality for users of Datadog and Telegraf. See th
 * `levedown.del` the time taken for the Leveldown `del` to be responded to in ms.
 * `levedown.batch` the time taken for the Leveldown `batch` to be run in ms.
 
-####Redis Queries
+#### Redis Queries
 
 **Timers**
 
 * `redis.<cmd>` the time taken for the given Redis command to be responded to in ms.
 
-####Memcached Operations
+#### Memcached Operations
 
 **Timers**
 
 * `memcached.<method>` the time taken for the given Memcached method to be responded to in ms.
 
-####PostgreSQL Queries
+#### PostgreSQL Queries
 
 **Timers**
 
 * `postgres` the time taken for the given PostgresSQL query to be responded to in ms.
 
-####MQTT Messaging
+#### MQTT Messaging
 
 **Timers**
 
 * `mqtt.<method>.<topic>` the time taken for a MQTT message to handled on a given topic in ms.
 
-####MQLight Messaging
+#### MQLight Messaging
 
 **Timers**
 
