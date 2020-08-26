@@ -17,9 +17,9 @@
     "monitoring"
   ],
   "author": "Chris Bailey <baileyc@uk.ibm.com>",
-  "repository" : {
-    "type" : "git",
-    "url" : "git://github.com/RuntimeTools/appmetrics-statsd.git"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RuntimeTools/appmetrics-statsd.git"
   },
   "license": "Apache-2.0"
 }
