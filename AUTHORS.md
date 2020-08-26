@@ -6,3 +6,4 @@ Authors ordered by first contribution:
  - Matt Colegate (https://github.com/mattcolegate)
  - Steve Kehlet (https://github.com/skehlet)
  - Honza Javorek (https://github.com/honzajavorek)
+ - Jeremy Jackson (https://github.com/jeremy-j-ackso)
